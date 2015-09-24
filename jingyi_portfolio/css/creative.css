@@ -39,7 +39,8 @@ a:-webkit-any-link {
     text-decoration: none;
 }
 
-a:hover {
+a:hover,
+a .fa:hover{
     color: #111;
 }
 
