@@ -26,29 +26,37 @@ hr.light {
     border-color: #fff;
 }
 
-a {
-    color:#86C7FF ;
+
+a,
+a:visited,
+a .fa {
+    color:#999;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
 }
-
 a:-webkit-any-link {
     text-decoration: none;
 }
 
-a:focus {
-    color: #222; 
+a:hover {
+    color: #111;
 }
 
-a:hover,
-a:focus:hover {
-    color: #7DD4FF;
+/*! links in the article */
+p a, 
+p a:visited, 
+ul a, 
+ul a:visited{
+    color: #66CDAA;
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    transition: all .35s;
+}
+p a:hover, ul a:hover {
+    color: #76EEC6;
 }
 
-a:visited{
-    color:#666;
-}
 
 h1,
 h2,
@@ -61,7 +69,7 @@ h6 {
 
 
 h1 {
-    font-size:36px;
+    font-size:48px;
     padding-bottom: 12px;
 }
 
@@ -84,16 +92,19 @@ h4{
 }
 
 p, ul, ol{
-    margin-bottom: 30px;
     font-size: 14px;
     font-family: 'Muli','Helvetica Neue',Arial,sans-serif;
     line-height: 1.8em;
     letter-spacing: 0px;
     font-weight: 300;
     font-style: normal;
+    margin-bottom: 30px;
 }
 
-
+ul, ol{
+    list-style-type: square;
+    margin-bottom: 30px;
+}
 
 .goodpart{
     font-size:28px;
@@ -105,7 +116,7 @@ p, ul, ol{
     font-size:13px;
     text-transform: uppercase;
     font-weight: bold;
-    padding-bottom: 10px;
+    padding-bottom: 15px;
 
 }
 
@@ -138,8 +149,8 @@ p, ul, ol{
     .padding30{
         padding-left: 25px;
         padding-right:25px;
+    }
 }
-
 .portfolio-border{
         border: 1px solid #ccc;
 }
@@ -249,29 +260,29 @@ aside {
     text-transform: uppercase;
     font-family: 'Muli','Helvetica Neue',Arial,sans-serif;
     font-weight: 700;
-    color: #f05f40;
+    color: #999;
 }
 
 .navbar-default .navbar-header .navbar-brand:hover,
 .navbar-default .navbar-header .navbar-brand:focus {
-    color: #eb3812;
+    color: #111;
 }
 
 .navbar-default .nav > li>a,
 .navbar-default .nav>li>a:focus {
     text-transform: uppercase;
     font-size: 11px;
-    color: #222;
+    color: #999;
 }
 
 .navbar-default .nav > li>a:hover,
 .navbar-default .nav>li>a:focus:hover {
-    color: #f05f40;
+    color: #111;
 }
 
 .navbar-default .nav > li.active>a,
 .navbar-default .nav>li.active>a:focus {
-    color: #f05f40!important;
+    color: #111!important;
     background-color: transparent;
 }
 
@@ -288,22 +299,22 @@ aside {
 
     .navbar-default .navbar-header .navbar-brand {
         font-size: 14px;
-        color: #f05f40;
+        color: #111;
     }
 
     .navbar-default .navbar-header .navbar-brand:hover,
     .navbar-default .navbar-header .navbar-brand:focus {
-        color: #eb3812;
+        color: #111;
     }
 
     .navbar-default .nav > li>a,
     .navbar-default .nav>li>a:focus {
-        color: #222;
+        color: #999;
     }
 
     .navbar-default .nav > li>a:hover,
     .navbar-default .nav>li>a:focus:hover {
-        color: #f05f40;
+        color: #111;
     }
 }
 
@@ -370,7 +381,7 @@ header {
 header .header-content {
     position: relative;
     width: 100%;
-    padding: 100px 15px;
+    padding: 150px 15px;
     text-shadow: 0px 0px 5px #333;
     text-align: center;
 }
@@ -387,7 +398,7 @@ header .header-content .header-content-inner hr {
 
 header .header-content .header-content-inner p {
     margin-bottom: 50px;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 300;
     color: rgba(255,255,255,.7);
 }
