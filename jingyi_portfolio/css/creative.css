@@ -49,13 +49,13 @@ p a,
 p a:visited, 
 ul a, 
 ul a:visited{
-    color: #66CDAA;
+    color: #1874CD;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
 }
 p a:hover, ul a:hover {
-    color: #76EEC6;
+    color: #1E90FF;
 }
 
 
@@ -106,6 +106,8 @@ ul, ol{
     list-style-type: square;
     margin-bottom: 30px;
 }
+
+
 
 .goodpart{
     font-size:28px;
@@ -457,7 +459,7 @@ header .header-content .header-content-inner p {
     max-width: 650px;
 }
 
-.portfolio-box .portfolio-box-caption {
+.portfolio-box .portfolio-box-caption{
     display: block;
     position: absolute;
     bottom: 0;
@@ -472,6 +474,19 @@ header .header-content .header-content-inner p {
     transition: all .35s;
 }
 
+.portfolio-box .coming-up{
+    display: block;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: #fff;
+    opacity: 1;
+    background: rgba(255,255,255,.7);
+}
+
+
 .portfolio-box .portfolio-box-caption {
     position: absolute;
     top: 50%;
@@ -480,7 +495,7 @@ header .header-content .header-content-inner p {
     transform: translateY(-50%);
 }
 
-.portfolio-box:hover .portfolio-box-caption {
+.portfolio-box:hover .portfolio-box-caption{
     opacity: 1;
 }
 
@@ -539,9 +554,10 @@ header .header-content .header-content-inner p {
 }
 
 .btn-default {
-    border-color: #fff;
-    color: #222;
-    background-color: #fff;
+    border: 1px solid #666;  
+    border-radius: 2px;
+    color: #999;
+    background-color: transparent;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -553,15 +569,15 @@ header .header-content .header-content-inner p {
 .btn-default:active,
 .btn-default.active,
 .open > .dropdown-toggle.btn-default {
-    border-color: #ededed;
-    color: #222;
-    background-color: #f2f2f2;
+    border-color: #fff;
+    color: #fff;
+    background-color: transparent;
 }
 
 .btn-default:active,
 .btn-default.active,
 .open > .dropdown-toggle.btn-default {
-    background-image: none;
+    background-image: transparent;
 }
 
 .btn-default.disabled,
@@ -583,16 +599,16 @@ fieldset[disabled] .btn-default:active,
 .btn-default[disabled].active,
 fieldset[disabled] .btn-default.active {
     border-color: #fff;
-    background-color: #fff;
+    background-color: transparent;
 }
 
 .btn-default .badge {
     color: #fff;
-    background-color: #222;
+    background-color: transparent;
 }
 
 .btn-primary {
-    border-color: #f05f40;
+    border-color: #999;
     color: #333;
     background-color: transparent;
     opacity:0.8;
@@ -607,8 +623,8 @@ fieldset[disabled] .btn-default.active {
 .btn-primary:active,
 .btn-primary.active,
 .open > .dropdown-toggle.btn-primary {
-    border-color: #ed431f;
-    color: #111;
+    border-color: #1E90FF;
+    color: #1E90FF;
     background-color: #fff;
     opacity:0.8;
 }
@@ -647,12 +663,12 @@ fieldset[disabled] .btn-primary.active {
 }
 
 .btn {
-    border: 0;
+    border-width: 1px;
     text-transform: uppercase;
     font-family: 'Quicksand','Helvetica Neue',Arial,sans-serif;
     font-weight: 400;
     font-size: 12px;
-    padding:4px 8px;
+    padding:10px 30px;
 }
 
 .btn-xl {
@@ -776,8 +792,114 @@ body {
 }
 
 /*! others */
+
 .noeffect{
     display:inline;
     font-size: 14px;
     font-family: 'Muli','Helvetica Neue',Arial,sans-serif;
     font-weight: 300;
+}
+
+/*! financial ux */
+
+.fux-page{
+    background-color: #000;
+
+}
+
+.fs-typo{
+    font-family: 'Rajdhani', sans-serif;
+    font-size:36px;
+    text-transform: uppercase;
+    color:#fff;
+    font-weight: 300;
+    letter-spacing: 3px;
+    padding-bottom: 20px;
+}
+.fs-typo-black{
+    font-family: 'Rajdhani', sans-serif;
+    font-size:36px;
+    text-transform: uppercase;
+    color:#000;
+    font-weight: 400;
+    letter-spacing: 2px;
+    margin-top: 60px;
+}
+
+.fs-typo-sub{
+    font-family: 'Rajdhani', sans-serif;
+    font-size:18px;
+    color:#aaa;
+    font-weight: 300;
+    letter-spacing: 1px;
+    padding-bottom: 30px;
+}
+
+.fs-project{
+    margin-bottom: 200px;
+}
+
+.fs-project-sub{
+    margin-bottom: 50px;
+}
+
+.fux-page .primary{
+    border-color: #333;
+}
+
+.primary-title{
+    color:#666;
+    text-transform: uppercase;
+    font-family: 'Quicksand','Helvetica Neue',Arial,sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+
+/*! financial modal */
+
+.fux-modal .close-modal {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    width: 75px;
+    height: 75px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.fux-modal .close-modal:hover {
+    opacity: .3;
+}
+
+.fux-modal .close-modal .lr {
+    z-index: 1051;
+    width: 1px;
+    height: 75px;
+    margin-left: 35px;
+    background-color: #222;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.fux-modal .close-modal .lr .rl {
+    z-index: 1052;
+    width: 1px;
+    height: 75px;
+    background-color: #222;
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+
+@media screen and (min-width:768px){
+    .fux-modal .modal-dialog{width: 768px;}
+}  
+@media screen and (min-width:992px){
+    .fux-modal .modal-dialog{width: 900px;}
+} 
+@media screen and (min-width:1200px){
+    .fux-modal .modal-dialog{width: 1170px;}
+} 
