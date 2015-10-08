@@ -1,0 +1,43 @@
+body{
+	background-color:white;
+	font-family: Arial, Helvetica, san-serif;
+}
+
+#myCanvas{
+	position:relative;
+	float:left;
+}
+
+#instruction{
+	padding:0 0 0 20px;
+	position:relative;
+	float:left;
+	left:20px;
+}
+
+#contact{
+	padding:30px 0 0 0;
+	font-weight:700;
+	font-size:0.7em;
+}
+	
+h1{
+	font-variant:small-caps;
+	font-size:2em;
+}
+
+h2{
+	padding:10px 0 0 0;
+	font-size:0.9em;
+}
+
+span{
+	color:#ff99cc;
+	font-weight:500;
+}
+
+p{
+	width: 210px;
+	font-size:0.75em;
+}
+
