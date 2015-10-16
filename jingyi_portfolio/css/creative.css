@@ -30,7 +30,7 @@ hr.light {
 a,
 a:visited,
 a .fa {
-    color:#999;
+    color:#666;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -409,8 +409,9 @@ header {
 }
 .header-bg{
     position: relative;
-    background-image: url(../img/header.jpg);
+    background-image: url(../img/header.png);
     background-position: center;
+    background-color: #b8b3af;
 
 }
 
@@ -1003,6 +1004,18 @@ header .header-content.noshadow {
     text-indent: 30px;
     font-size:48px;
 }
+
+/* footer */
+
+.footer-below {
+    padding: 25px 0;
+    background-color: #111;
+    color: #aaa;
+    font-size:11px;
+    text-align: right;
+}
+
+
 
 
 
