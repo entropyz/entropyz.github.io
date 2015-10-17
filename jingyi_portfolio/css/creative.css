@@ -62,7 +62,6 @@ p a:hover, ul a:hover {
     font-size: 12px;
 }
 
-<<<<<<< HEAD
 .italic {
     font-style: italic;
 }
@@ -89,8 +88,6 @@ p a:hover, ul a:hover {
     font-size:36px;
 }
 
-=======
->>>>>>> parent of e9b5ac5... 10/8/2015
 h1,
 h2,
 h3,
@@ -596,12 +593,11 @@ header .header-content .header-content-inner p {
     color: #f05f40;
 }
 
-/*!
 .no-gutter > [class*=col-] {
     padding-right: 0;
     padding-left: 0;
 }
- */
+
 
 .contentdown{   
     position: absolute;
@@ -916,7 +912,7 @@ body {
 
 /*! financial modal */
 
-.fux-modal .close-modal {
+.close-modal {
     position: absolute;
     top: 25px;
     right: 25px;
@@ -926,31 +922,35 @@ body {
     cursor: pointer;
 }
 
-.fux-modal .close-modal:hover {
+.close-modal:hover {
     opacity: .3;
 }
 
-.fux-modal .close-modal .lr {
+.close-modal .lr {
     z-index: 1051;
     width: 1px;
     height: 75px;
     margin-left: 35px;
-    background-color: #222;
+    background-color: #2c3e50;
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
 }
 
-.fux-modal .close-modal .lr .rl {
+.close-modal .lr .rl {
     z-index: 1052;
     width: 1px;
     height: 75px;
-    background-color: #222;
+    background-color: #2c3e50;
     -webkit-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
 }
 
+.modal-backdrop {
+    display: none;
+    opacity: 0;
+}
 
 @media screen and (min-width:768px){
     .fux-modal .modal-dialog{width: 768px;}
@@ -1019,6 +1019,3 @@ header .header-content.noshadow {
 
 
 
-=======
-}
->>>>>>> parent of e9b5ac5... 10/8/2015
