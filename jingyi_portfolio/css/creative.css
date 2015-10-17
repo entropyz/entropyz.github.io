@@ -380,13 +380,16 @@ header {
     min-height: auto;
     text-align: center;
     color: #fff;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
 }
 
 .header-bg{
-    position: relative;
     background-image: url(../img/header.png);
-    background-position: center;
     background-color: #b8b3af;
+    overflow: hidden;
     background-position: center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
