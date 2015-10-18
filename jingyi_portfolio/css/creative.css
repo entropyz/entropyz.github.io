@@ -60,7 +60,7 @@ h4{
     padding: 20px 0;
 }
 h5{
-    font-weight: 600;
+    font-weight:600;
 }
 
 section {
@@ -133,6 +133,9 @@ p a:hover, ul a:hover {
 
 .thick {
     font-weight: bold;
+}
+.thin{
+    font-weight:300;
 }
 
 .nowrap{
@@ -842,7 +845,40 @@ body {
 
 }
 
+.fs-icon {
+    position: relative;
+    background-size: 70%;
+    height: auto;
+    clear: both;
+    display: block;
+    background-repeat: no-repeat;
+    min-height: 140px;
+    padding-top: 0px;
+    padding-left:200px;
+    text-align: left;
+    background-position: left top;
+}
+
+#icon_mw{
+    background-image: url(../img/fds/icon_mw.png);
+    background-size: 90px; 
+    background-position: 10px 10px;
+}
+
+#icon_cloud{
+    background-image: url(../img/fds/icon_cloud.png);
+    background-size: 88px; 
+    background-position: 10px 10px;
+}
+
+#icon_sa{
+    background-image: url(../img/fds/icon_sa.png);
+    background-size: 86px; 
+    background-position: 10px 10px;
+}
+
 .fs-typo{
+    display: block;
     font-family: 'Rajdhani', sans-serif;
     font-size:36px;
     text-transform: uppercase;
@@ -851,6 +887,7 @@ body {
     letter-spacing: 3px;
     padding-bottom: 20px;
 }
+
 .fs-typo-black{
     font-family: 'Rajdhani', sans-serif;
     font-size:36px;
@@ -871,11 +908,11 @@ body {
 }
 
 .fs-project{
-    margin-bottom: 200px;
+    margin-bottom: 180px;
 }
 
 .fs-project-sub{
-    margin-bottom: 50px;
+    margin-bottom: 80px;
 }
 
 .fux-page .primary{
