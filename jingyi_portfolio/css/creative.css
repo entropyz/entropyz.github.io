@@ -463,6 +463,11 @@ header .header-content .header-content-inner p {
     color: rgba(255,255,255,.7);
 }
 
+header .header-content .header-content-inner .btn {
+    position: absolute;
+    top:0%;
+    left: 10%;
+}
 
 
 @media(min-width:768px) {
