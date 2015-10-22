@@ -132,7 +132,7 @@ p a:hover, ul a:hover {
 }
 
 .thick {
-    font-weight: bold;
+    font-weight: 700;
 }
 .thin{
     font-weight:300;
@@ -156,6 +156,10 @@ p a:hover, ul a:hover {
 
 .big-letter{
     font-size:36px;
+}
+
+.mid-letter{
+    font-size:24px;
 }
 
 .tight-spacing{
@@ -1018,6 +1022,13 @@ body {
     width: 100%;
     height:100%;
     background-color: rgba(0, 153, 255,.6);
+}
+
+/* about */
+.about-text p{
+    font-size: 13px;
+    font-family: 'Quicksand','Helvetica Neue',Arial,sans-serif;
+    font-weight: 400;
 }
 
 
