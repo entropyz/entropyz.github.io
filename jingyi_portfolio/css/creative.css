@@ -153,6 +153,9 @@ p a:hover, ul a:hover {
 .grey-font{
     color:#aaa;
 }
+.grey1-font{
+    color:#666;
+}
 
 .big-letter{
     font-size:36px;
