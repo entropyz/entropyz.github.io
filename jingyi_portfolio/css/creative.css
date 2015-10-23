@@ -774,7 +774,7 @@ body {
 /*! logo, icon, and page nav */
 #logoimg{
     background: url(../img/logo.png);
-    background-size: 100% 100%;
+    background-size: 100%;
     background-repeat: no-repeat;
 }
 
@@ -867,34 +867,30 @@ body {
 
 .fs-icon {
     position: relative;
-    background-size: 70%;
     height: auto;
     clear: both;
     display: block;
     background-repeat: no-repeat;
     min-height: 140px;
-    padding-top: 0px;
-    padding-left:200px;
-    text-align: left;
-    background-position: left top;
+    padding-top:128px;
+    text-align: center;
+    background-position: center 10px ;
 }
 
 #icon_mw{
     background-image: url(../img/fds/icon_mw.png);
     background-size: 90px; 
-    background-position: 10px 10px;
 }
 
 #icon_cloud{
     background-image: url(../img/fds/icon_cloud.png);
     background-size: 88px; 
-    background-position: 10px 10px;
 }
 
 #icon_sa{
     background-image: url(../img/fds/icon_sa.png);
     background-size: 86px; 
-    background-position: 10px 10px;
+
 }
 
 .fs-typo{
@@ -990,8 +986,23 @@ body {
     opacity: 0;
 }
 
+
 @media screen and (min-width:768px){
     .fux-modal .modal-dialog{width: 768px;}
+    .fs-icon{
+        position: relative;
+        height: auto;
+        clear: both;
+        display: block;
+        padding-left: 200px;
+        padding-top: 0px;
+        background-repeat: no-repeat;
+        min-height: 140px;
+        text-align: left;
+        background-position: 10px 10px;
+    }
+
+
 }  
 @media screen and (min-width:992px){
     .fux-modal .modal-dialog{width: 900px;}
