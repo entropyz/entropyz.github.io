@@ -113,6 +113,7 @@ ul a:visited{
 }
 p a:hover, ul a:hover {
     color: #1E90FF;
+
 }
 
 
@@ -676,7 +677,7 @@ fieldset[disabled] .btn-default.active {
     background-color: transparent;
 }
 
-.btn-primary {
+.btn-primary, .btn-primary-index{
     border-color: #999;
     color: #333;
     background-color: transparent;
@@ -694,7 +695,17 @@ fieldset[disabled] .btn-default.active {
 .open > .dropdown-toggle.btn-primary {
     border-color: #1E90FF;
     color: #1E90FF;
-    background-color: #fff;
+    background-color: transparent;
+    opacity:0.8;
+}
+
+.btn-primary-index:visited{
+    color: #666;
+}
+.btn-primary-index:hover{
+    border-color: #777;
+    color: #111;
+    background-color: transparent;
     opacity:0.8;
 }
 
@@ -1053,7 +1064,7 @@ body {
     background-color: #111;
     color: #aaa;
     font-size:11px;
-    text-align: right;
+    text-align: left;
 }
 
 
