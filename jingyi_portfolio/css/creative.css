@@ -105,7 +105,9 @@ a .fa:hover{
 p a, 
 p a:visited, 
 ul a, 
-ul a:visited{
+ul a:visited
+figcaption a, 
+figcaption a:visited{
     color: #1874CD;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
@@ -181,6 +183,14 @@ p a:hover, ul a:hover {
 figure{
     padding-top: 30px;
     padding-bottom: 30px;
+}
+
+figcaption{
+    font-size: 12px;
+    font-family: 'Quicksand','Helvetica Neue',Arial,sans-serif;
+    font-weight: 400;
+    padding: 10px 0;
+    text-align: center;
 }
 
 .img-center{
