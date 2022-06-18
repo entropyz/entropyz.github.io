@@ -64,7 +64,7 @@ h5{
 }
 
 section {
-    margin:80px 0;
+    margin:0px 0;
 }
 
 p, ul, ol{
@@ -74,12 +74,24 @@ p, ul, ol{
     letter-spacing: 0px;
     font-weight: 300;
     font-style: normal;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 ul, ol{
     list-style-type: square;
     margin-bottom: 30px;
+}
+
+
+blockquote {
+    border-left: 1px solid #ddd;
+}
+
+
+
+
+.homepage_sec{
+    padding: 140px 0 80px 0;
 }
 
 
@@ -115,7 +127,6 @@ figcaption a:visited{
 }
 p a:hover, ul a:hover {
     color: #1E90FF;
-
 }
 
 
@@ -178,6 +189,42 @@ p a:hover, ul a:hover {
     width: 10%;
 }
 
+
+
+/*! text style font-family: 'Chivo','Helvetica Neue',Arial,sans-serif;*/
+
+
+
+.date{
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    letter-spacing: .2em;
+    line-height: 1.5em;
+    color:#666;
+    text-transform: uppercase;
+    padding-bottom: 14px;
+}
+
+.company{
+    padding-top:30px;
+    padding-bottom: 18px;
+}
+
+.experience{
+    padding-top:10px;
+    padding-bottom: 18px;
+    margin-top: 50px;
+    color:#666;
+}
+
+.fs-1{
+    font-size: 16px;
+    font-style: italic;
+}
+
+
+
 /*! image style */
 
 figure{
@@ -207,6 +254,32 @@ figcaption{
     background-repeat: no-repeat;
 }
 
+.companyimg{
+    height:76px;
+}
+
+.company_aliclould{
+    height:34px;
+}
+
+.companyimg_fs{
+    height:37px;
+}
+
+.companyimg_ea{
+    height:46px;
+}
+
+
+#portfolio1{
+    background-color: #f2f2f2;
+    height: 100%;
+    width: 100%;
+}
+
+#mainNav{
+    background-color: #f2f2f2;
+}
 
 .goodpart{
     font-size:28px;
@@ -335,10 +408,6 @@ li .fa {
     color: rgba(255,255,255,.7);
 }
 
-
-.homepage_sec{
-    padding: 80px 0 80px 0;
-}
 
 .no-padding {
     padding: 0;
@@ -586,34 +655,46 @@ header .header-content .header-content-inner .btn {
     opacity: 1;
 }
 
+
+
+.portfolio-box .portfolio-box-caption-content {
+    padding: 17px 0;
+}
+
 .portfolio-box .portfolio-box-caption-content .project-category,
 .portfolio-box .portfolio-box-caption-content .project-name {
-    padding: 0 15px;
     font-family: 'Quicksand','Helvetica Neue',Arial,sans-serif;
     color:#333;
 }
 
+.portfolio-box .portfolio-box-caption-content .project-name {
+    font-size: 20px;
+}
+
 .portfolio-box .portfolio-box-caption-content .project-category {
     text-transform: uppercase;
-    font-size: 8px;
-}
-
-.portfolio-box .portfolio-box-caption-content .project-name {
-    font-size: 14px;
+    font-size: 12px;
     padding: 10px 0;
-
+    color:#999;
+    letter-spacing: .2em;
 }
+
 
 
 @media(min-width:768px) {
-    .portfolio-box .portfolio-box-caption-content .project-category {
-        font-size: 8px;
-    }
 
     .portfolio-box .portfolio-box-caption-content .project-name {
-        font-size: 14px;
+        font-size: 20px;
         padding: 10px 0;
     }
+
+    .portfolio-box .portfolio-box-caption-content .project-category {
+        font-size: 12px;
+        color:#999;
+        letter-spacing: .2em;
+    }
+
+
 }
 
 
@@ -1058,6 +1139,7 @@ body {
     height:100%;
     background-color: rgba(0, 153, 255,.6);
 }
+
 
 /* about */
 .about-text p{
